@@ -13,3 +13,4 @@ RUN apk update && apk add --no-cache tor ca-certificates && \
     
 CMD nohup tor & \
     v2ray -config $CONFIG
+
